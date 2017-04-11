@@ -1,7 +1,7 @@
 var restful = require('node-restful');
 var mongoose = restful.mongoose;
 
-var statusSchema = new ongoose.Schema({
+var statusSchema = new mongoose.Schema({
     status: String
 });
 
